@@ -20,11 +20,9 @@ int main() {
   cout << "Select the battle mode\n";
   cout << "1 - Standard (4 turns)\n";
   cout << "2 - Random (3 - 10 turns)\n";
-
   int choice;
   cout << "Choice: ";
   cin >> choice;
-
   switch (choice)
   {
     case 1:
